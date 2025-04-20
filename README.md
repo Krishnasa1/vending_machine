@@ -4,6 +4,7 @@
 
 This project implements a **Vending Machine Controller** using **Verilog HDL**, designed to operate in both configuration and operational modes. The controller supports up to **1024 items** and accepts currency denominations up to **₹100**, making it scalable and suitable for real-world embedded vending applications.
 ![image](https://github.com/user-attachments/assets/53393cd8-e357-4a9f-8ec1-de2218cdef0d)
+
 This image explains the block diagram of vending machine 
 
 
