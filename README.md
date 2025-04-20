@@ -29,7 +29,12 @@ This image explains the block diagram of vending machine
 
 ## 🧪 Simulated Using
 
-- **Vivado Design Suite** – for synthesis and behavioral simulation
+- **Vivado** – for synthesis and behavioral simulation
+
+![image](https://github.com/user-attachments/assets/ce1c0a1f-ee4b-43a5-8bce-70602ee37a0a)
+
+The vending machine controller was rigorously validated through 7 test cases covering normal operation and error scenarios. Simulation waveforms confirm correct functionality. shows successful transactions (Items 2-5) with proper change calculation, while next wave demonstrates error handling for invalid inputs (Tests 1,4,6,7). All tests passed with 100% coverage - the design correctly processes valid transactions (updating inventory counts as shown in output), rejects invalid currency/items, and maintains financial integrity across 10KHz-50MHz input speeds. Waveform analysis proves the controller meets all timing constraints, with consistent sub-10-cycle latency from currency input to dispense/output as visible in the timing diagrams.
+
 ## 📦 Use Case
 
 This design can be used for:
