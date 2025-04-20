@@ -42,3 +42,7 @@ This design can be used for:
 - Designed with industry-level structure
 - Implements real-time event handling and change-return mechanism
 - Ensures glitch-free operation across different clock domains
+
+## Conclusion
+The vending machine controller project was successfully implemented. The design achieved    efficient real-time dispensing, correct management of item stock and change, and safe handling of asynchronous currency inputs. By providing a flexible configuration mode and robust FSM design, the controller is ready for integration into real-world vending machine systems, meeting the design and performance criteria specified.
+
