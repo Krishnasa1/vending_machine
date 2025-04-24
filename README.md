@@ -35,6 +35,10 @@ This image explains the block diagram of vending machine
 
 The vending machine controller was rigorously validated through 7 test cases covering normal operation and error scenarios. Simulation waveforms confirm correct functionality. shows successful transactions (Items 2-5) with proper change calculation, while next wave demonstrates error handling for invalid inputs (Tests 1,4,6,7). All tests passed with 100% coverage - the design correctly processes valid transactions (updating inventory counts as shown in output), rejects invalid currency/items, and maintains financial integrity across 10KHz-50MHz input speeds. Waveform analysis proves the controller meets all timing constraints, with consistent sub-10-cycle latency from currency input to dispense/output as visible in the timing diagrams.
 
+TEST CASES
+
+![Test Plan](https://github.com/user-attachments/assets/681cbd9a-7b3f-436c-973e-9437425601c9)
+
 ## 📦 Use Case
 
 This design can be used for:
